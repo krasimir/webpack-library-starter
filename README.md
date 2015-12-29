@@ -20,7 +20,6 @@ ES6 source files
        |
        +--- babel, eslint
        |
-       |
   ready to use
      library
   in umd format
