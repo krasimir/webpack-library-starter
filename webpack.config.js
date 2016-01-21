@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-var env = process.env.WEBPACK_ENV;
 var path = require('path');
+var env = require('yargs').argv.mode;
 
 var libraryName = 'library';
 
