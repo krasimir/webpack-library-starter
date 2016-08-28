@@ -25,6 +25,8 @@ ES6 source files
   in umd format
 ```
 
+*Have in mind that you have to build your library before publishing. The files under the `lib` folder are the ones that should be distributed.*
+
 ## Getting started
 
 1. Setting up the name of your library
