@@ -5,7 +5,7 @@ chai.expect();
 
 const expect = chai.expect;
 
-var lib;
+let lib;
 
 describe('Given an instance of my library', function () {
   before(function () {
