@@ -1,6 +1,6 @@
 {
   "name": "webpack-library-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Produce universal library with webpack and es6",
   "main": "lib/library.js",
   "scripts": {
