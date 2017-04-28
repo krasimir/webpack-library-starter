@@ -1,4 +1,4 @@
-/*global __dirname, require, module*/
+/* global __dirname, require, module*/
 
 const webpack = require('webpack');
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
@@ -35,7 +35,7 @@ const config = {
       },
       {
         test: /(\.jsx|\.js)$/,
-        loader: "eslint-loader",
+        loader: 'eslint-loader',
         exclude: /node_modules/
       }
     ]

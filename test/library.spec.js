@@ -1,4 +1,4 @@
-/*global describe, it, before */
+/* global describe, it, before */
 
 import chai from 'chai';
 import Library from '../lib/library.js';
