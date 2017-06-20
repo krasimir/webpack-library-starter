@@ -1,8 +1,3 @@
-export default class Library {
-  constructor() {
-    this._name = 'Library';
-  }
-  get name() {
-    return this._name;
-  }
-}
+import Cat from './cat.js';
+import Dog from './dog.js';
+export { Dog, Cat };
