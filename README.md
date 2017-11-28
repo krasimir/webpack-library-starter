@@ -2,6 +2,8 @@
 
 Webpack based boilerplate for producing libraries (Input: ES6, Output: universal library)
 
+![Travis](https://travis-ci.org/krasimir/webpack-library-starter.svg?branch=master)
+
 ## Features
 
 * Webpack 3 based.
