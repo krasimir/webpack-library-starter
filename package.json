@@ -1,27 +1,13 @@
 {
   "name": "webpack-library-starter",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Produce universal library with webpack and es6",
   "main": "lib/library.js",
   "scripts": {
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
-    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
-  },
-  "devDependencies": {
-    "babel-cli": "6.24.1",
-    "babel-core": "6.24.1",
-    "babel-eslint": "7.2.3",
-    "babel-loader": "7.0.0",
-    "babel-plugin-add-module-exports": "0.2.1",
-    "babel-preset-es2015": "6.24.1",
-    "chai": "3.5.0",
-    "eslint": "3.19.0",
-    "eslint-loader": "1.7.1",
-    "mocha": "3.3.0",
-    "webpack": "3.1.0",
-    "yargs": "7.1.0"
+    "test": "mocha --require babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --require babel-core/register --colors -w ./test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -41,5 +27,19 @@
   "bugs": {
     "url": "https://github.com/krasimir/webpack-library-starter/issues"
   },
-  "homepage": "https://github.com/krasimir/webpack-library-starter"
+  "homepage": "https://github.com/krasimir/webpack-library-starter",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.12.0",
+    "eslint-loader": "^1.9.0",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1",
+    "yargs": "^10.0.3"
+  }
 }
