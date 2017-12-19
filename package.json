@@ -31,15 +31,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
-    "eslint": "^4.12.0",
+    "eslint": "^4.13.1",
     "eslint-loader": "^1.9.0",
     "mocha": "^4.0.1",
-    "webpack": "^3.8.1",
+    "webpack": "^3.10.0",
     "yargs": "^10.0.3"
   }
 }
