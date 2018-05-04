@@ -1,5 +1,8 @@
 # NPC (Non Playable Character) Generator
 
+![Travis](https://travis-ci.org/SebDez/npc-generator.svg?branch=master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 This generator was designed to generate some random characters to be used in role playing game, fiction or whatever which needs a character !
 
 I used to import this lib in another project called FONUG, which is a web based app to generate these characters.
@@ -10,7 +13,6 @@ The character is generated according to that choice, the data could be not ratio
 
 The character generated is very general with a view to be adapted to any world background (as a mediavel wolrd to a futuristic one )
 
-![Travis](https://travis-ci.org/SebDez/npc-generator.svg?branch=master)
 
 ## Features
 
