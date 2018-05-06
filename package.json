@@ -1,7 +1,7 @@
 {
-  "name": "npc-generator",
-  "version": "0.0.0",
-  "description": "A NPC generator",
+  "name": "fonug-character-generator",
+  "version": "0.0.1",
+  "description": "A character generator",
   "main": "lib/library.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
