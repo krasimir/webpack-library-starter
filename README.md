@@ -1,6 +1,6 @@
 # NPC (Non Playable Character) Generator
 
-![Travis](https://travis-ci.org/SebDez/npc-generator.svg?branch=master)
+![Travis](https://travis-ci.org/SebDez/fonug-character-generator.svg?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 This generator was designed to generate some random characters to be used in role playing game, fiction or whatever which needs a character !
@@ -16,17 +16,25 @@ The character generated is very general with a view to be adapted to any world b
 
 ## Features
 
-* TODO
+* Generate a random character
 
-## Process
+## Getting started
+
+```
+const NpcGenerator = require('./../npc-generator/lib/npc-generator')
+
+// Initialize the generator and content providers
+const generator = new NpcGenerator()
+
+//Generate a random character into a JSON object
+const randomCharacter = generator.generateCharacter()
+```
+
+## Parameters and options
 
 ```
 TODO
 ```
-
-## Getting started
-
-1. TODO
 
 ## Scripts
 
