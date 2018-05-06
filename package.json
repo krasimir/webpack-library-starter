@@ -1,7 +1,7 @@
 {
-  "name": "webpack-library-starter",
-  "version": "1.0.2",
-  "description": "Produce universal library with webpack and es6",
+  "name": "fonug-character-generator",
+  "version": "0.0.1",
+  "description": "A character generator",
   "main": "lib/library.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/krasimir/webpack-library-starter.git"
+    "url": "https://github.com/SebDez/npc-generator"
   },
   "keywords": [
     "webpack",
@@ -22,12 +22,8 @@
     "umd",
     "commonjs"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "Sébastien Dez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/krasimir/webpack-library-starter/issues"
-  },
-  "homepage": "https://github.com/krasimir/webpack-library-starter",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -41,5 +37,12 @@
     "mocha": "^4.0.1",
     "webpack": "^3.10.0",
     "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
   }
 }
