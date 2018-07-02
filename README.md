@@ -6,7 +6,7 @@ Webpack based boilerplate for producing libraries (Input: ES6, Output: universal
 
 ## Features
 
-* Webpack 3 based.
+* Webpack 4 based.
 * ES6 as a source.
 * Exports in a [umd](https://github.com/umdjs/umd) format so your library works everywhere.
 * ES6 test setup with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).
