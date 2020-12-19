@@ -32,6 +32,7 @@ const config = {
     filename: outputFile,
     library: libraryName,
     libraryTarget: shouldExportToAMD ? "amd" : "umd",
+    libraryExport: "default",
     umdNamedDefine: true,
     globalObject: "typeof self !== 'undefined' ? self : this",
   },
