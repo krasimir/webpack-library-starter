@@ -42,7 +42,9 @@ ES6/TypeScript source files
 ## Scripts
 
 * `yarn build` - produces production version of your library under the `lib` folder
+* `yarn build-amd` - produces an AMD version that works with RequireJS
 * `yarn dev` - produces development version of your library and runs a watcher
+* `yarn dev-amd` - produces an AMD development version of your library and runs a watcher
 * `yarn test`  - well ... it runs the tests :)
 * `yarn test-watch` - same as above but in a watch mode
 
