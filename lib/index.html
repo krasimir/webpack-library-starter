@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./webpack-library-starter.js"></script>
+    <!-- <script src="./webpack-library-starter.min.js"></script> -->
+    <script>
+      window.addEventListener("load", () => {
+        const dog = new window["webpack-library-starter"].Dog();
+        console.log(dog.name);
+      });
+    </script>
+  </body>
+</html>

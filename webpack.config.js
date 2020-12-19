@@ -20,7 +20,7 @@ if (env === "build") {
 const config = {
   mode: mode,
   entry: __dirname + "/src/index.js",
-  devtool: "inline-source-map",
+  devtool: "source-map",
   output: {
     path: __dirname + "/lib",
     filename: outputFile,
@@ -32,8 +32,10 @@ const config = {
   module: {
     rules: [
       {
-        test: /(\.jsx|\.js)$/,
-        loader: "babel-loader",
+        test: /(\.jsx|\.js|\.ts|\.tsx)$/,
+        use: {
+          loader: "babel-loader",
+        },
         exclude: /(node_modules|bower_components)/,
       },
     ],
