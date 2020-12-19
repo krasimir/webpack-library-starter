@@ -1,24 +1,23 @@
 # Webpack library starter
 
-Webpack based boilerplate for producing libraries (Input: ES6, Output: universal library)
+Webpack based boilerplate for producing libraries (Input: ES6/TypeScript, Output: universal library)
 
 ## Features
 
-* Webpack 4 based.
-* ES6 as a source.
+* Webpack 5 based.
+* ES6 or TypeScript as a source.
 * Exports in a [umd](https://github.com/umdjs/umd) format so your library works everywhere.
-* ES6 test setup with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).
-* Linting with [ESLint](http://eslint.org/).
+* Test setup with [Jest](https://jestjs.io/).
 
 ## Process
 
 ```
-ES6 source files
+ES6/TypeScript source files
        |
        |
     webpack
        |
-       +--- babel, eslint
+       +--- babel
        |
   ready to use
      library
@@ -34,18 +33,18 @@ ES6 source files
   * Open `package.json` file and change the value of `main` property so it matches the name of your library.
 2. Build your library
   * Run `yarn install` (recommended) or `npm install` to get the project's dependencies
-  * Run `yarn build` or `npm run build` to produce minified version of your library.
+  * Run `yarn build` to produce minified version of your library.
 3. Development mode
-  * Having all the dependencies installed run `yarn dev` or `npm run dev`. This command will generate an non-minified version of your library and will run a watcher so you get the compilation on file change.
+  * Run `yarn dev`. This command will generate a non-minified version of your library and will run a watcher so you get the compilation on file change.
 4. Running the tests
-  * Run `yarn test` or `npm run test`
+  * Run `yarn test`
 
 ## Scripts
 
-* `yarn build` or `npm run build` - produces production version of your library under the `lib` folder
-* `yarn dev` or `npm run dev` - produces development version of your library and runs a watcher
-* `yarn test` or `npm run test` - well ... it runs the tests :)
-* `yarn test:watch` or `npm run test:watch` - same as above but in a watch mode
+* `yarn build` - produces production version of your library under the `lib` folder
+* `yarn dev` - produces development version of your library and runs a watcher
+* `yarn test`  - well ... it runs the tests :)
+* `yarn test-watch` - same as above but in a watch mode
 
 ## Readings
 
